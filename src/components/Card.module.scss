@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 410px;
+  gap: 15px;
+  padding: 30px 19px;
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 0px rgba(142, 160, 173, 0.35);
+  background: linear-gradient(
+    90deg,
+    rgb(251, 253, 255),
+    rgb(216, 239, 255) 100.863%
+  );
+
+  &__heading {
+    color: #01457a;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  &__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #01457a;
+    text-align: center;
+  }
+}
